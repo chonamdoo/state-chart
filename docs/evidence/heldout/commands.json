@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "A",
+    "cwd": "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-heldout-rp65eve5",
+    "command": [
+      "./state-chart/scripts/statechart",
+      "AuthorizationA.tla",
+      "--config",
+      "AuthorizationA.cfg",
+      "--view",
+      "view.mjs",
+      "--out",
+      "result-A"
+    ],
+    "environment": {
+      "TLA2TOOLS": "/tmp/state-chart-tla2tools-1.7.4.jar",
+      "JAVA": "/opt/homebrew/opt/openjdk@17/bin/java",
+      "PATH_prefix": "/Users/namdoo/.nvm/versions/node/v24.14.1/bin"
+    },
+    "exit_status": 1
+  },
+  {
+    "variant": "B",
+    "cwd": "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-heldout-rp65eve5",
+    "command": [
+      "./state-chart/scripts/statechart",
+      "AuthorizationB.tla",
+      "--config",
+      "AuthorizationB.cfg",
+      "--view",
+      "view.mjs",
+      "--out",
+      "result-B"
+    ],
+    "environment": {
+      "TLA2TOOLS": "/tmp/state-chart-tla2tools-1.7.4.jar",
+      "JAVA": "/opt/homebrew/opt/openjdk@17/bin/java",
+      "PATH_prefix": "/Users/namdoo/.nvm/versions/node/v24.14.1/bin"
+    },
+    "exit_status": 0
+  }
+]

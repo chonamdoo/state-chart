@@ -1,0 +1,47 @@
+[
+  {
+    "case": "Counter",
+    "original_exit": 0,
+    "installed_exit": 0,
+    "identical": {
+      "report.md": true,
+      "chart.mmd": true
+    }
+  },
+  {
+    "case": "CounterDeadlock",
+    "original_exit": 1,
+    "installed_exit": 1,
+    "identical": {
+      "report.md": true,
+      "chart.mmd": true
+    }
+  },
+  {
+    "case": "CounterLoop",
+    "original_exit": 1,
+    "installed_exit": 1,
+    "identical": {
+      "report.md": true,
+      "chart.mmd": true
+    }
+  },
+  {
+    "case": "CounterInitPastHolds",
+    "original_exit": 0,
+    "installed_exit": 0,
+    "identical": {
+      "report.md": true,
+      "chart.mmd": true
+    }
+  },
+  {
+    "case": "CounterFan",
+    "original_exit": 1,
+    "installed_exit": 1,
+    "identical": {
+      "report.md": true,
+      "chart.mmd": true
+    }
+  }
+]

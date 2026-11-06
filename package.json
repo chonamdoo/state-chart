@@ -1,0 +1,13 @@
+{
+  "name": "state-chart-development",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "test:fuzz": "node --disable-warning=ExperimentalWarning --test test/differential.fuzz.ts",
+    "test:render": "node --disable-warning=ExperimentalWarning --test test/render.optional.ts"
+  },
+  "devDependencies": {
+    "fast-check": "4.5.3"
+  }
+}

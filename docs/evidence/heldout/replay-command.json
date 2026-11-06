@@ -1,0 +1,8 @@
+{
+  "cwd": "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-heldout-rp65eve5",
+  "command": [
+    "/Users/namdoo/.nvm/versions/node/v24.14.1/bin/node",
+    "replay.mjs"
+  ],
+  "exit_status": 0
+}

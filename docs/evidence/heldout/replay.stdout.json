@@ -1,0 +1,210 @@
+{
+  "status": "passed",
+  "counterexampleSource": "result-A/tlc.out",
+  "replay": [
+    {
+      "scenario": "A exact TLC replay",
+      "modelState": 1,
+      "action": "Init",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "A exact TLC replay",
+      "modelState": 2,
+      "action": "Prepare",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "A exact TLC replay",
+      "modelState": 3,
+      "action": "Cancel",
+      "state": {
+        "authorized": false,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "A exact TLC replay",
+      "modelState": 4,
+      "action": "Execute",
+      "state": {
+        "authorized": false,
+        "prepared": true,
+        "executed": true
+      },
+      "ruleHolds": false
+    },
+    {
+      "scenario": "B same counterexample actions",
+      "action": "Init",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B same counterexample actions",
+      "action": "Prepare",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B same counterexample actions",
+      "action": "Cancel",
+      "state": {
+        "authorized": false,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B same counterexample actions",
+      "action": "Execute",
+      "state": {
+        "authorized": false,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Init",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Prepare",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Execute",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": true
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Cancel",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": true
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Prepare",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": true
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B successful operation stays terminal",
+      "action": "Execute",
+      "state": {
+        "authorized": true,
+        "prepared": true,
+        "executed": true
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B cancellation before preparation",
+      "action": "Init",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B cancellation before preparation",
+      "action": "Cancel",
+      "state": {
+        "authorized": false,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B cancellation before preparation",
+      "action": "Prepare",
+      "state": {
+        "authorized": false,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B cancellation before preparation",
+      "action": "Execute",
+      "state": {
+        "authorized": false,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B execution requires preparation",
+      "action": "Init",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    },
+    {
+      "scenario": "B execution requires preparation",
+      "action": "Execute",
+      "state": {
+        "authorized": true,
+        "prepared": false,
+        "executed": false
+      },
+      "ruleHolds": true
+    }
+  ]
+}

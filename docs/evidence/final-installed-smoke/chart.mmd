@@ -1,0 +1,14 @@
+---
+title: "Authorization must remain active until execution"
+---
+stateDiagram-v2
+  s0: Authorized#59; waiting to prepare
+  s1: Canceled before prepare
+  s2: Prepared and authorized
+  s3: Canceled after prepare
+  s4: Completed with active authorization
+  [*] --> s0
+  s0 --> s1: Cancel authorization
+  s0 --> s2: Prepare the operation
+  s2 --> s3: Cancel authorization
+  s2 --> s4: Attempt execution

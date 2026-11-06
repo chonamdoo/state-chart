@@ -1,0 +1,16 @@
+# AuthorizationA
+
+TLC reached 6 states and 14 steps. The chart draws 6 states and 5 arrows.
+The chart does not draw 9 steps that stay in one chart state.
+
+## ExecutionRequiresAuthorization breaks
+The shortest path has 3 steps:
+0. Authorized; waiting to prepare
+1. Prepare the operation: Prepared and authorized
+2. Cancel authorization: Canceled after prepare
+3. Attempt execution: Completed after authorization was canceled
+
+## Rules that hold
+TypeOK, NoDeadlock
+
+Wrote result-A

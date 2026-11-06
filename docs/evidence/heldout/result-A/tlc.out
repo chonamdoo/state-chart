@@ -1,0 +1,44 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 0 and seed -7540499757337389664 with 1 worker on 18 cores with 12288MB heap and 64MB offheap memory [pid: 48565] (Mac OS X 26.6.2 aarch64, Homebrew 17.0.19 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-heldout-rp65eve5/AuthorizationA.tla
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/statechart-HAMcDw/statechart-OCOGFk/tmp-verdict-1/TLC.tla
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/statechart-HAMcDw/statechart-OCOGFk/tmp-verdict-1/Naturals.tla
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/statechart-HAMcDw/statechart-OCOGFk/tmp-verdict-1/Sequences.tla
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/statechart-HAMcDw/statechart-OCOGFk/tmp-verdict-1/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module AuthorizationA
+Starting... (2026-11-06 13:08:44)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-06 13:08:44.
+Error: Invariant ExecutionRequiresAuthorization is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ prepared = FALSE
+/\ authorized = TRUE
+/\ executed = FALSE
+
+State 2: <Prepare line 10, col 12 to line 12, col 48 of module AuthorizationA>
+/\ prepared = TRUE
+/\ authorized = TRUE
+/\ executed = FALSE
+
+State 3: <Cancel line 14, col 11 to line 16, col 45 of module AuthorizationA>
+/\ prepared = TRUE
+/\ authorized = FALSE
+/\ executed = FALSE
+
+State 4: <Execute line 18, col 12 to line 20, col 48 of module AuthorizationA>
+/\ prepared = TRUE
+/\ authorized = FALSE
+/\ executed = TRUE
+
+13 states generated, 6 distinct states found, 1 states left on queue.
+The depth of the complete state graph search is 4.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 2 and the 95th percentile is 2).
+Finished in 00s at (2026-11-06 13:08:44)
+
