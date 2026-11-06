@@ -1,0 +1,30 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 0 and seed 4128307777626527253 with 1 worker on 18 cores with 12288MB heap and 64MB offheap memory [pid: 57182] (Mac OS X 26.6.2 aarch64, Homebrew 17.0.19 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/state-chart-upstream-2776ddd/pstack/skills/statechart/scripts/test/corpus/CounterFan/CounterFan.tla
+Parsing file /private/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/statechart-BVAyUi/statechart-tcTrRP/tmp-verdict-1/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module CounterFan
+Starting... (2026-11-06 13:11:12)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-06 13:11:12.
+Error: Invariant NotDone is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ done = FALSE
+/\ x = 0
+
+State 2: <Pick line 5, col 9 to line 5, col 56 of module CounterFan>
+/\ done = FALSE
+/\ x = 1
+
+State 3: <Finish line 6, col 11 to line 6, col 55 of module CounterFan>
+/\ done = TRUE
+/\ x = 1
+
+14 states generated, 14 distinct states found, 11 states left on queue.
+The depth of the complete state graph search is 3.
+The average outdegree of the complete state graph is 12 (minimum is 12, the maximum 12 and the 95th percentile is 12).
+Finished in 00s at (2026-11-06 13:11:12)
+

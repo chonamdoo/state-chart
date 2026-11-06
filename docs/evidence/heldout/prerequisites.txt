@@ -1,0 +1,25 @@
+Working directory for all commands:
+/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-heldout-rp65eve5
+
+Command:
+command -v node java && node --version && /usr/libexec/java_home -v 17 && shasum -a 256 /tmp/state-chart-tla2tools-1.7.4.jar
+Exit status: 1
+Observed output:
+/Users/namdoo/.nvm/versions/node/v24.14.1/bin/node
+/opt/homebrew/opt/openjdk@17/bin/java
+v24.14.1
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+The Java discovery helper failed; because of &&, the checksum command above did not run. No installation was attempted. The discovered explicit Homebrew Java executable was used instead.
+
+Command:
+/opt/homebrew/opt/openjdk@17/bin/java -version && shasum -a 256 /tmp/state-chart-tla2tools-1.7.4.jar
+Exit status: 0
+Observed output:
+openjdk version "17.0.19" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 17.0.19+0)
+OpenJDK 64-Bit Server VM Homebrew (build 17.0.19+0, mixed mode, sharing)
+936a262061c914694dfd669a543be24573c45d5aa0ff20a8b96b23d01e050e88  /tmp/state-chart-tla2tools-1.7.4.jar
+
+The JAR checksum matches the pinned checksum in the copied skill's references/execution.md. Its TLC process identifies itself as TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802); this is the banner observed from the pinned release asset, not a separately substituted JAR.

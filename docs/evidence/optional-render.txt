@@ -1,0 +1,86 @@
+
+> test:render
+> node --disable-warning=ExperimentalWarning --test test/render.optional.ts
+
+﹣ charts/Braces.mmd renders in Pele 1.9.0 with each class on its node (0.455333ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ charts/Braces.mmd parses in mermaid.js, which chat views use (0.034416ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ charts/Escapes.mmd renders in Pele 1.9.0 with each class on its node (0.026958ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ charts/Escapes.mmd parses in mermaid.js, which chat views use (0.029833ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ charts/Phases.mmd renders in Pele 1.9.0 with each class on its node (0.032792ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ charts/Phases.mmd parses in mermaid.js, which chat views use (0.021958ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Counter/chart.mmd renders in Pele 1.9.0 with each class on its node (0.027375ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Counter/chart.mmd parses in mermaid.js, which chat views use (0.027084ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterAction/chart.mmd renders in Pele 1.9.0 with each class on its node (0.288583ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterAction/chart.mmd parses in mermaid.js, which chat views use (0.055666ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterDeadlock/chart.mmd renders in Pele 1.9.0 with each class on its node (0.025083ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterDeadlock/chart.mmd parses in mermaid.js, which chat views use (0.01775ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterFan/chart.mmd renders in Pele 1.9.0 with each class on its node (0.015208ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterFan/chart.mmd parses in mermaid.js, which chat views use (0.013ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterGuard/chart.mmd renders in Pele 1.9.0 with each class on its node (0.014208ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterGuard/chart.mmd parses in mermaid.js, which chat views use (0.026209ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInitPast/chart.mmd renders in Pele 1.9.0 with each class on its node (0.016917ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInitPast/chart.mmd parses in mermaid.js, which chat views use (0.02225ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInitPastHolds/chart.mmd renders in Pele 1.9.0 with each class on its node (0.014084ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInitPastHolds/chart.mmd parses in mermaid.js, which chat views use (0.012708ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInstance/chart.mmd renders in Pele 1.9.0 with each class on its node (0.011667ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterInstance/chart.mmd parses in mermaid.js, which chat views use (0.019959ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterJump/chart.mmd renders in Pele 1.9.0 with each class on its node (0.015958ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterJump/chart.mmd parses in mermaid.js, which chat views use (0.014667ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterLoop/chart.mmd renders in Pele 1.9.0 with each class on its node (0.0145ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterLoop/chart.mmd parses in mermaid.js, which chat views use (0.011292ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterOrder/chart.mmd renders in Pele 1.9.0 with each class on its node (0.011334ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterOrder/chart.mmd parses in mermaid.js, which chat views use (0.016875ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterRules/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010792ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterRules/chart.mmd parses in mermaid.js, which chat views use (0.011917ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterStart/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010542ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterStart/chart.mmd parses in mermaid.js, which chat views use (0.023958ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterStop/chart.mmd renders in Pele 1.9.0 with each class on its node (0.015ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterStop/chart.mmd parses in mermaid.js, which chat views use (0.012042ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterTie/chart.mmd renders in Pele 1.9.0 with each class on its node (0.017041ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterTie/chart.mmd parses in mermaid.js, which chat views use (0.023333ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterTieInGraph/chart.mmd renders in Pele 1.9.0 with each class on its node (0.019292ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterTieInGraph/chart.mmd parses in mermaid.js, which chat views use (0.012666ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterView/chart.mmd renders in Pele 1.9.0 with each class on its node (0.013458ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/CounterView/chart.mmd parses in mermaid.js, which chat views use (0.015041ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/DieHard/chart.mmd renders in Pele 1.9.0 with each class on its node (0.013208ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/DieHard/chart.mmd parses in mermaid.js, which chat views use (0.010458ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/FirstRule/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010125ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/FirstRule/chart.mmd parses in mermaid.js, which chat views use (0.010416ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/HiddenClock/chart.mmd renders in Pele 1.9.0 with each class on its node (0.011459ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/HiddenClock/chart.mmd parses in mermaid.js, which chat views use (0.010458ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Login/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010041ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Login/chart.mmd parses in mermaid.js, which chat views use (0.009333ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/LoginGuarded/chart.mmd renders in Pele 1.9.0 with each class on its node (0.008792ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/LoginGuarded/chart.mmd parses in mermaid.js, which chat views use (0.009666ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/LoginParallel/chart.mmd renders in Pele 1.9.0 with each class on its node (0.009833ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/LoginParallel/chart.mmd parses in mermaid.js, which chat views use (0.009333ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayer/chart.mmd renders in Pele 1.9.0 with each class on its node (0.009625ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayer/chart.mmd parses in mermaid.js, which chat views use (0.010542ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayerFixed/chart.mmd renders in Pele 1.9.0 with each class on its node (0.057083ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayerFixed/chart.mmd parses in mermaid.js, which chat views use (0.013208ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayerProps/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010209ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/MediaPlayerProps/chart.mmd parses in mermaid.js, which chat views use (0.01ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/PickWorker/chart.mmd renders in Pele 1.9.0 with each class on its node (0.00875ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/PickWorker/chart.mmd parses in mermaid.js, which chat views use (0.009542ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Shadow/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010791ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/Shadow/chart.mmd parses in mermaid.js, which chat views use (0.009833ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/SpacedNames/chart.mmd renders in Pele 1.9.0 with each class on its node (0.01125ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/SpacedNames/chart.mmd parses in mermaid.js, which chat views use (0.01ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TwoPhase/chart.mmd renders in Pele 1.9.0 with each class on its node (0.012875ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TwoPhase/chart.mmd parses in mermaid.js, which chat views use (0.012625ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TwoPhaseFixed/chart.mmd renders in Pele 1.9.0 with each class on its node (0.010167ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TwoPhaseFixed/chart.mmd parses in mermaid.js, which chat views use (0.025584ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TypeGuard/chart.mmd renders in Pele 1.9.0 with each class on its node (0.011917ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/TypeGuard/chart.mmd parses in mermaid.js, which chat views use (0.010708ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/UserNoDeadlock/chart.mmd renders in Pele 1.9.0 with each class on its node (0.009625ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ corpus/UserNoDeadlock/chart.mmd parses in mermaid.js, which chat views use (0.009625ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+﹣ random labels and colors keep their text and the chart's shape in Mermaid and Pele (0.00975ms) # optional rendering tests require existing local pele@1.9.0, mermaid@11.16.0 and jsdom@26.1.0; no packages are installed
+✔ the theme in references/render.md colors each class that the charts use (0.089625ms)
+ℹ tests 74
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 73
+ℹ todo 0
+ℹ duration_ms 69.63475

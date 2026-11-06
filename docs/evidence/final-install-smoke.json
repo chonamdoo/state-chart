@@ -1,0 +1,15 @@
+{
+  "install_cwd": "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-final-install-r8ejm7hj",
+  "command": [
+    "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-final-install-r8ejm7hj/.agents/skills/state-chart/scripts/statechart",
+    "/Users/namdoo/.agent-flow/worktrees/state-chart-0e01293024d5/feat-create-reusable-state-chart-skill-preserving-pinned-b37c24/docs/evidence/heldout/AuthorizationB.tla",
+    "--view",
+    "/Users/namdoo/.agent-flow/worktrees/state-chart-0e01293024d5/feat-create-reusable-state-chart-skill-preserving-pinned-b37c24/docs/evidence/heldout/view.mjs",
+    "--out",
+    "/var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-final-install-r8ejm7hj/checked-authorization"
+  ],
+  "exit": 0,
+  "stdout": "# AuthorizationB\n\nTLC reached 5 states and 13 steps. The chart draws 5 states and 4 arrows.\nThe chart does not draw 9 steps that stay in one chart state.\n\n## Rules that hold\nTypeOK, ExecutionRequiresAuthorization, NoDeadlock\n\nWrote /var/folders/81/308ppjhd4_175x6vnb5flwmr0000gn/T/state-chart-final-install-r8ejm7hj/checked-authorization\n",
+  "stderr": "",
+  "installed_test_directory": false
+}
